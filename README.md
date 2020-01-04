@@ -1,2 +1,2 @@
-# Cpp-Programs
-This is to save my favorite programs of c++
+# cpp program
+This is a simple program about sharing programming advice
