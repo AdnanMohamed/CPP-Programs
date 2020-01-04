@@ -1,0 +1,13 @@
+
+Understand the problem you are trying to solve before attempting to solve it.
+
+write the algorithm(solving steps) before writing the code.
+
+Use the debugger.
+
+If you faced a hard problem and you couldn't solve it from the first attempt,
+take some rest and come to it later.
+
+If you wanted to know were is the bug in your program,
+try explaining the program line by line to someone or to yourself.
+

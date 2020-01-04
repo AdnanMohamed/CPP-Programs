@@ -1,0 +1,3 @@
+If you wanted to know were is the bug in your program,
+try explaining the program line by line to someone or to yourself.
+
