@@ -1,0 +1,8 @@
+100,Bill Rodgers
+132,Frank Shorter
+182,Joan Benoit
+192,Adnan Mohamed
+102,Rashid Hamada
+152,Mikhail Nesterenko
+170,Hussain Yusuf
+164,Yaseen Mansoor
