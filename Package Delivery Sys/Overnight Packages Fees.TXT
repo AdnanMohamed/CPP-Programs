@@ -1,0 +1,5 @@
+Package 2
+additional rate: 3
+
+Package 3
+additional rate: 5
