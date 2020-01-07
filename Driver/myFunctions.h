@@ -85,4 +85,41 @@ int collatz(int n);
 //This function takes a positive integer and returns
 //the number of steps it would take to return to number 1
 //by applying recursive concept "calling the function".
+
+template<class T>
+void swap(T& var1, T& var2)
+{
+    T temp = var1;
+    var1 = var2;
+    var2 = temp;
+}
+// This function swaps any values of the types that can be assigned
+// like int, double, string, char and others.
+
+template<class T>
+void sort(T a[], int size)
+{
+    T min;
+    int index;
+    for (int i = 0; i < size; ++i)
+    {
+        min = a[i];
+        index = i;
+        for (int j = i; j < size; ++j)
+        {
+            if (min > a[j])
+            {
+                min = a[j];
+                index = j;
+            }
+        }
+        swap(a[i], a[index]);
+    }
+}
+
+// This sort function takes an array of the size given as 2nd argument.
+// The type of elements should be comparable <
+// Some elegible types are int, double, char, string.
+// The array will be ordered ascendently
+
 #endif
