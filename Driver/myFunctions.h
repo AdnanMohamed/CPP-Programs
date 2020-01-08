@@ -122,4 +122,23 @@ void sort(T a[], int size)
 // Some elegible types are int, double, char, string.
 // The array will be ordered ascendently
 
+template<class T>
+bool binary_search(T a[], T element, int low, int high)
+{
+    if (low == high)
+        return a[low] == element;
+    int mid = (high + low) / 2;
+
+    if (a[mid] == element)
+        return true;
+    else if (a[mid] > element)
+        binary_search(a, element, low, mid - 1);
+    else
+        binary_search(a, element, mid + 1, high);
+}
+
+// a: an array of characters, doubles or integers(sorted from least to leargest)
+// low is the first element to search from and high is the last element's index
+// Return : True if the element was in the list otherwise false
+
 #endif
